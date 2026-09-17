@@ -1,0 +1,24 @@
+{
+  "name": "yi_website",
+  "version": "2.0.0",
+  "private": true,
+  "description": "天台邑旅店 - Xiaoliuqiu hotel booking site",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "node-ical": "^0.19.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "next": "^15.3.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vercel": "^59.18.0"
+  }
+}
