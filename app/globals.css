@@ -312,6 +312,29 @@ section {
   margin-top: 30px;
 }
 
+/* Tour video */
+.tour-section {
+  background: #fbf7ef;
+}
+.video-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 56%;
+  margin-top: 30px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: #000;
+}
+.video-wrap video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Final CTA */
 .final {
   color: white;

@@ -100,6 +100,19 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section id="tour" className="tour-section">
+        <div className="container">
+          <h2 className="section-title">旅店實景影片</h2>
+          <p className="section-lead">實際走一趟天台邑，感受房間與公共空間的氛圍。</p>
+          <div className="video-wrap">
+            <video controls preload="metadata" poster="/media/p2.jpeg">
+              <source src="/media/hotel-tour.mp4" type="video/mp4" />
+              你的瀏覽器不支援影片播放。
+            </video>
+          </div>
+        </div>
+      </section>
+
       <section id="features">
         <div className="container">
           <h2 className="section-title">為什麼選擇天台邑</h2>
