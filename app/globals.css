@@ -356,6 +356,34 @@ section {
   gap: 35px;
   align-items: center;
 }
+.final .qr-label {
+  color: #fff;
+  margin: 20px 0 12px;
+  font-weight: 600;
+}
+.qr-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.qr-row div {
+  text-align: center;
+}
+.qr-row img {
+  width: 88px;
+  height: 88px;
+  padding: 5px;
+  border-radius: 10px;
+  background: #fff;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+.qr-row small {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #edf4f0;
+}
 
 /* Carousel */
 .carousel {

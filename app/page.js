@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Carousel from '@/components/Carousel';
 
 export default function HomePage() {
@@ -20,12 +19,9 @@ export default function HomePage() {
           </h1>
           <p>位在南福村的旅途據點，步行即可抵達落日亭、厚石群礁與烏鬼洞；屋頂能遠眺海景與夕陽，烤肉與海鮮小吃都在附近。</p>
           <div className="ctas">
-            <Link className="btn primary" href="/sales#stay">
-              查看住宿與房型 →
-            </Link>
-            <Link className="btn light" href="/booking">
-              線上查看空房 →
-            </Link>
+            <a className="btn primary" href="/#cta">
+              聯絡我們 →
+            </a>
           </div>
         </div>
       </section>
@@ -73,9 +69,9 @@ export default function HomePage() {
               <li>屋頂可遠眺海景、夕陽與星空</li>
             </ul>
             <div className="ctas">
-              <Link className="btn primary" href="/sales">
-                深入了解旅店 →
-              </Link>
+              <a className="btn primary" href="/#cta">
+                聯絡我們 →
+              </a>
             </div>
           </div>
           <div>
@@ -134,9 +130,9 @@ export default function HomePage() {
             </article>
           </div>
           <div className="ctas">
-            <Link className="btn primary" href="/booking">
-              查看空房與線上訂房 →
-            </Link>
+            <a className="btn primary" href="/#cta">
+              聯絡我們 →
+            </a>
           </div>
         </div>
       </section>
@@ -144,23 +140,34 @@ export default function HomePage() {
       <section id="cta" className="final">
         <div className="container final-box">
           <div>
-            <h2 className="section-title">規劃你的小琉球旅程</h2>
-            <p>先看看房型、設備與入住資訊，確認符合自己的需求，再決定是否預訂。</p>
-            <div className="ctas">
-              <Link className="btn light" href="/sales#stay">
-                查看住宿方案 →
-              </Link>
-              <Link className="btn light" href="/booking">
-                線上訂房
-              </Link>
+            <h2 className="section-title">諳聯絡我們規劃你的小琉球旅程</h2>
+            <p>Tel: 0938591059 E-mail: mav50852001@yahoo.com.tw</p>
+            <p className="qr-label">掃描 QR Code 加入即時通訊</p>
+            <div className="qr-row">
+              <div>
+                <img src="/media/whatsapp_qr.png" alt="WhatsApp QR Code" />
+                <small>WhatsApp</small>
+              </div>
+              <div>
+                <img src="/media/line_qr.png" alt="LINE QR Code" />
+                <small>LINE</small>
+              </div>
+              <div>
+                <img src="/media/wechat_qr.png" alt="WeChat QR Code" />
+                <small>微信</small>
+              </div>
+              <div>
+                <img src="/media/facebook_qr.png" alt="Facebook QR Code" />
+                <small>Facebook</small>
+              </div>
             </div>
           </div>
           <div className="card" style={{ color: 'var(--ink)' }}>
             <b>準備好出發了嗎？</b>
             <p>
-              前往訂房頁面
+              直接聯繫我們
               <br />
-              即時查看空房、價格與預訂狀態。
+              聊聊住宿、交通與行程安排。
             </p>
           </div>
         </div>

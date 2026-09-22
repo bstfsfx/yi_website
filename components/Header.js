@@ -7,9 +7,6 @@ const NAV_LINKS = [
   { href: '/#about', label: '關於旅店' },
   { href: '/#photos', label: '旅店實景' },
   { href: '/#features', label: '特色' },
-  { href: '/sales#stay', label: '住宿方案' },
-  { href: '/booking', label: '線上訂房' },
-  { href: '/sales#faq', label: '常見問題' },
 ];
 
 export default function Header() {
@@ -41,12 +38,9 @@ export default function Header() {
         </nav>
 
         <div className="nav-actions ctas" style={{ margin: 0 }}>
-          <Link className="btn primary" href="/booking">
-            線上訂房
-          </Link>
-          <Link className="btn light" href="/sales#contact">
-            加入LINE詢問
-          </Link>
+          <a className="btn light" href="tel:0938591059">
+            聯絡我們
+          </a>
         </div>
 
         {open && (
@@ -57,12 +51,9 @@ export default function Header() {
               </Link>
             ))}
             <div className="nav-actions ctas">
-              <Link className="btn primary" href="/booking" onClick={close}>
-                線上訂房
-              </Link>
-              <Link className="btn light" href="/sales#contact" onClick={close}>
-                加入LINE詢問
-              </Link>
+              <a className="btn light" href="tel:0938591059" onClick={close}>
+                聯絡我們
+              </a>
             </div>
           </div>
         )}
