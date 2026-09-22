@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Carousel from '@/components/Carousel';
 
 export default function HomePage() {
@@ -19,9 +20,9 @@ export default function HomePage() {
           </h1>
           <p>位在南福村的旅途據點，步行即可抵達落日亭、厚石群礁與烏鬼洞；屋頂能遠眺海景與夕陽，烤肉與海鮮小吃都在附近。</p>
           <div className="ctas">
-            <a className="btn primary" href="/#cta">
+            <Link className="btn primary" href="/#cta">
               聯絡我們 →
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -69,9 +70,9 @@ export default function HomePage() {
               <li>屋頂可遠眺海景、夕陽與星空</li>
             </ul>
             <div className="ctas">
-              <a className="btn primary" href="/#cta">
+              <Link className="btn primary" href="/#cta">
                 聯絡我們 →
-              </a>
+              </Link>
             </div>
           </div>
           <div>
@@ -82,7 +83,7 @@ export default function HomePage() {
 
       <section id="photos" className="photos">
         <div className="container">
-          <h2 className="section-title">實際入住的風景</h2>
+          <h2 className="section-title">房間實況及附近風景</h2>
           <p className="section-lead">從房間到公共空間的真實照片，讓你在訂房前更能想像這趟旅程。</p>
           <div className="photo-grid">
             <img className="wide" src="/media/8272af6c-c04e-44e0-ad7c-49127f141208.jpeg" alt="天台邑旅店實景" />
@@ -129,18 +130,13 @@ export default function HomePage() {
               <p>短期旅遊、商務出差、遠距工作或中長期停留皆可，也歡迎包棟洽詢。</p>
             </article>
           </div>
-          <div className="ctas">
-            <a className="btn primary" href="/#cta">
-              聯絡我們 →
-            </a>
-          </div>
         </div>
       </section>
 
       <section id="cta" className="final">
         <div className="container final-box">
           <div>
-            <h2 className="section-title">諳聯絡我們規劃你的小琉球旅程</h2>
+            <h2 className="section-title">請聯絡我們規劃你的小琉球旅程</h2>
             <p>Tel: 0938591059 E-mail: mav50852001@yahoo.com.tw</p>
             <p className="qr-label">掃描 QR Code 加入即時通訊</p>
             <div className="qr-row">
@@ -165,9 +161,9 @@ export default function HomePage() {
           <div className="card" style={{ color: 'var(--ink)' }}>
             <b>準備好出發了嗎？</b>
             <p>
-              直接聯繫我們
+              使用通訊軟件 與我們聯絡
               <br />
-              聊聊住宿、交通與行程安排。
+              即時了解房間、價格與預訂狀態。
             </p>
           </div>
         </div>

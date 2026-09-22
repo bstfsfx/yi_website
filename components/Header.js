@@ -38,9 +38,9 @@ export default function Header() {
         </nav>
 
         <div className="nav-actions ctas" style={{ margin: 0 }}>
-          <a className="btn light" href="tel:0938591059">
+          <Link className="btn light" href="/#cta">
             聯絡我們
-          </a>
+          </Link>
         </div>
 
         {open && (
@@ -51,9 +51,9 @@ export default function Header() {
               </Link>
             ))}
             <div className="nav-actions ctas">
-              <a className="btn light" href="tel:0938591059" onClick={close}>
+              <Link className="btn light" href="/#cta" onClick={close}>
                 聯絡我們
-              </a>
+              </Link>
             </div>
           </div>
         )}
