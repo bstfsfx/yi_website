@@ -137,7 +137,11 @@ export default function HomePage() {
         <div className="container final-box">
           <div>
             <h2 className="section-title">請聯絡我們規劃你的小琉球旅程</h2>
-            <p>Tel: 0938591059 E-mail: mav50852001@yahoo.com.tw</p>
+            <p>
+              <span style={{ marginRight: 10 }}>聯絡我們</span>
+              <a className="btn light" href="tel:0938591059">電話</a>　
+              <a className="btn light" href="mailto:mav50852001@yahoo.com.tw">E-mail</a>
+            </p>
             <p className="qr-label">掃描 QR Code 加入即時通訊</p>
             <div className="qr-row">
               <div>

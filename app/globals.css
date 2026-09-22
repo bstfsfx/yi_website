@@ -191,6 +191,19 @@ footer {
   gap: 20px;
   font-size: 13px;
 }
+footer .btn {
+  padding: 6px 14px;
+  font-size: 13px;
+}
+footer .btn.light {
+  background: white;
+  color: var(--green);
+}
+footer .btn.light:hover {
+  background: var(--green2);
+  color: white;
+  border-color: var(--green2);
+}
 
 /* Hero sections */
 .hero {
