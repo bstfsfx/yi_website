@@ -38,6 +38,9 @@ export default function Header() {
         </nav>
 
         <div className="nav-actions ctas" style={{ margin: 0 }}>
+          <Link className="btn primary" href="/#group">
+            包棟住宿
+          </Link>
           <Link className="btn light" href="/#cta">
             聯絡我們
           </Link>
@@ -51,6 +54,9 @@ export default function Header() {
               </Link>
             ))}
             <div className="nav-actions ctas">
+              <Link className="btn primary" href="/#group" onClick={close}>
+                包棟住宿
+              </Link>
               <Link className="btn light" href="/#cta" onClick={close}>
                 聯絡我們
               </Link>

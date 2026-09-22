@@ -52,10 +52,36 @@ export default function HomePage() {
           <span className="icon" style={{ margin: '0 auto 6px' }}>
             ☷
           </span>
-          <b>多種住宿需求</b>
-          <small>旅遊・商務・長住・包棟</small>
+          <b>團體包楝</b>
         </div>
       </div>
+
+      <section id="group" className="group-section">
+        <div className="container">
+          <span className="kicker">包棟住宿・主力推薦</span>
+          <h2 className="section-title">整棟包下，與親友獨享整座天台邑</h2>
+          <p className="section-lead">適合家庭聚會、朋友出遊與公司團體。專屬空間不受打擾，人數彈性，歡迎包棟洽詢。</p>
+          <div className="group-grid">
+            <article className="card group-card">
+              <h3>組合 A</h3>
+              <p className="group-rooms">4人房 × 2間　＋　2人房 × 2間</p>
+              <p className="group-calc">基本 8 + 4 = <b>12 人</b></p>
+              <small>兩間 2 人房各可再加 1 名 120 公分以下兒童，最多 <b>14 人</b></small>
+            </article>
+            <article className="card group-card">
+              <h3>組合 B</h3>
+              <p className="group-rooms">4人房 × 2間　＋　2人房 × 3間</p>
+              <p className="group-calc">基本 8 + 6 = <b>14 人</b></p>
+              <small>其中兩間 2 人房各可再加 1 名 120 公分以下兒童，最多 <b>16 人</b></small>
+            </article>
+          </div>
+          <div className="ctas">
+            <a className="btn primary" href="/#cta">
+              洽詢包棟 →
+            </a>
+          </div>
+        </div>
+      </section>
 
       <section id="about">
         <div className="container intro">
@@ -126,8 +152,8 @@ export default function HomePage() {
             </article>
             <article className="card">
               <span className="icon">☷</span>
-              <h3>彈性的住宿選擇</h3>
-              <p>短期旅遊、商務出差、遠距工作或中長期停留皆可，也歡迎包棟洽詢。</p>
+              <h3>歡迎</h3>
+              <p>中長期停留及包棟洽詢。</p>
             </article>
           </div>
         </div>
@@ -145,20 +171,20 @@ export default function HomePage() {
             <p className="qr-label">掃描 QR Code 加入即時通訊</p>
             <div className="qr-row">
               <div>
-                <img src="/media/whatsapp_qr.png" alt="WhatsApp QR Code" />
-                <small>WhatsApp</small>
-              </div>
-              <div>
                 <img src="/media/line_qr.png" alt="LINE QR Code" />
                 <small>LINE</small>
+              </div>
+              <div>
+                <img src="/media/facebook_qr.png" alt="Facebook QR Code" />
+                <small>Facebook</small>
               </div>
               <div>
                 <img src="/media/wechat_qr.png" alt="WeChat QR Code" />
                 <small>微信</small>
               </div>
               <div>
-                <img src="/media/facebook_qr.png" alt="Facebook QR Code" />
-                <small>Facebook</small>
+                <img src="/media/whatsapp_qr.png" alt="WhatsApp QR Code" />
+                <small>WhatsApp</small>
               </div>
             </div>
           </div>
