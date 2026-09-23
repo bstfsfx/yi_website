@@ -802,9 +802,6 @@ summary {
   .photo-grid {
     grid-auto-rows: 200px;
   }
-  .photo-grid .cell.wide {
-    grid-column: span 1;
-  }
   .steps {
     grid-template-columns: 1fr;
   }
