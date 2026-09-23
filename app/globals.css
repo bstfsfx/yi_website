@@ -281,7 +281,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background: linear-gradient(rgba(255, 253, 248, 0.87), rgba(255, 253, 248, 0.87)),
-    url('/media/9026c2c0-c7d8-4cbb-8230-5133aacfc126.jpeg') center / cover;
+    url('/media/a45d258f-027f-41dc-b654-ff55117a0d44.jpeg') center / cover;
   border-radius: 18px;
   box-shadow: var(--shadow);
   padding: 20px;

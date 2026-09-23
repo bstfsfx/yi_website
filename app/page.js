@@ -13,13 +13,17 @@ export default function HomePage() {
         }}
       >
         <div className="container hero-copy">
-          <div className="kicker">天台邑旅店．小琉球住宿</div>
-          <h1>
+          <Reveal as="div" className="kicker" delay={0}>
+            天台邑旅店．小琉球住宿
+          </Reveal>
+          <Reveal as="h1" delay={240}>
             在小琉球，
             <br />
             找一個剛剛好的落腳處
-          </h1>
-          <p>位在南福村的旅途據點，步行即可抵達落日亭、厚石群礁與烏鬼洞；屋頂能遠眺海景與夕陽，烤肉與海鮮小吃都在附近。</p>
+          </Reveal>
+          <Reveal as="p" delay={480}>
+            位在南福村的旅途據點，步行即可抵達落日亭、厚石群礁與烏鬼洞；屋頂能遠眺海景與夕陽，烤肉與海鮮小吃都在附近。
+          </Reveal>
           <div className="ctas">
             <Link className="btn primary" href="/#cta">
               聯絡我們 →
