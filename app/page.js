@@ -171,20 +171,28 @@ export default function HomePage() {
             <p className="qr-label">掃描 QR Code 加入即時通訊</p>
             <div className="qr-row">
               <div>
-                <img src="/media/line_qr.png" alt="LINE QR Code" />
-                <small>LINE</small>
+                <a href="https://line.me/ti/p/8NIfEmPHlH" target="_blank" rel="noopener">
+                  <img src="/media/line_qr.png" alt="LINE QR Code" />
+                  <small>LINE</small>
+                </a>
               </div>
               <div>
-                <img src="/media/facebook_qr.png" alt="Facebook QR Code" />
-                <small>Facebook</small>
+                <a href="https://www.facebook.com/share/1BYwW3x1rC/" target="_blank" rel="noopener">
+                  <img src="/media/facebook_qr.png" alt="Facebook QR Code" />
+                  <small>Facebook</small>
+                </a>
               </div>
               <div>
-                <img src="/media/wechat_qr.png" alt="WeChat QR Code" />
-                <small>微信</small>
+                <a href="https://u.wechat.com/kJRnfbKXpNVW_gvmaOhaF7o?s=3" target="_blank" rel="noopener">
+                  <img src="/media/wechat_qr.png" alt="WeChat QR Code" />
+                  <small>微信</small>
+                </a>
               </div>
               <div>
-                <img src="/media/whatsapp_qr.png" alt="WhatsApp QR Code" />
-                <small>WhatsApp</small>
+                <a href="https://wa.me/qr/GE36BFLXMFQOM1" target="_blank" rel="noopener">
+                  <img src="/media/whatsapp_qr.png" alt="WhatsApp QR Code" />
+                  <small>WhatsApp</small>
+                </a>
               </div>
             </div>
           </div>
