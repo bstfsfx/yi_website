@@ -280,7 +280,8 @@ h1 {
 .highlights {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background: white;
+  background: linear-gradient(rgba(255, 253, 248, 0.87), rgba(255, 253, 248, 0.87)),
+    url('/media/9026c2c0-c7d8-4cbb-8230-5133aacfc126.jpeg') center / cover;
   border-radius: 18px;
   box-shadow: var(--shadow);
   padding: 20px;
@@ -336,6 +337,24 @@ section {
   content: '✓';
   color: var(--green);
   font-weight: 800;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  will-change: opacity, transform;
+}
+.reveal.revealed {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 /* Photos */
@@ -403,8 +422,8 @@ section {
 /* Final CTA */
 .final {
   color: white;
-  background: linear-gradient(90deg, rgba(17, 72, 67, 0.92), rgba(17, 72, 67, 0.45)),
-    url('/media/a45d258f-027f-41dc-b654-ff55117a0d44.jpeg') center 60% / cover;
+  background: linear-gradient(90deg, rgba(17, 72, 67, 0.97), rgba(17, 72, 67, 0.5)),
+    url('/media/c37edb47-8823-4a49-a6d9-e6f709366fd2.jpeg') center 60% / cover;
 }
 .final .section-title {
   color: white;

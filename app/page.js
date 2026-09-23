@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Carousel from '@/components/Carousel';
+import Reveal from '@/components/Reveal';
 
 export default function HomePage() {
   return (
@@ -62,18 +63,18 @@ export default function HomePage() {
           <h2 className="section-title">整棟包下，與親友獨享整座天台邑</h2>
           <p className="section-lead">適合家庭聚會、朋友出遊與公司團體。專屬空間不受打擾，人數彈性，歡迎包棟洽詢。</p>
           <div className="group-grid">
-            <article className="card group-card">
+            <Reveal as="article" className="card group-card" delay={0}>
               <h3>組合 A</h3>
               <p className="group-rooms">4人房 × 2間　＋　2人房 × 2間</p>
               <p className="group-calc">基本 8 + 4 = <b>12 人</b></p>
               <small>兩間 2 人房各可再加 1 名 120 公分以下兒童，最多 <b>14 人</b></small>
-            </article>
-            <article className="card group-card">
+            </Reveal>
+            <Reveal as="article" className="card group-card" delay={240}>
               <h3>組合 B</h3>
               <p className="group-rooms">4人房 × 2間　＋　2人房 × 3間</p>
               <p className="group-calc">基本 8 + 6 = <b>14 人</b></p>
               <small>其中兩間 2 人房各可再加 1 名 120 公分以下兒童，最多 <b>16 人</b></small>
-            </article>
+            </Reveal>
           </div>
           <div className="ctas">
             <a className="btn primary" href="/#cta">
@@ -89,11 +90,11 @@ export default function HomePage() {
             <h2 className="section-title">一下船，靠近海岸的住宿開始</h2>
             <p className="section-lead">天台邑旅店位在小琉球南福村，方便抵達南部海岸的熱門景點，也歡迎包棟洽詢。出發前，先透過我們的住宿資訊了解房型與入住方式。</p>
             <ul className="intro-list">
-              <li>步行 300 公尺抵達 落日亭</li>
-              <li>步行 400 公尺抵達 厚石群礁</li>
-              <li>步行 500 公尺抵達 烏鬼洞</li>
-              <li>步行 600 公尺抵達 神秘沙灘</li>
-              <li>屋頂可遠眺海景、夕陽與星空</li>
+              <Reveal as="li" delay={0}>步行 300 公尺抵達 落日亭</Reveal>
+              <Reveal as="li" delay={240}>步行 400 公尺抵達 厚石群礁</Reveal>
+              <Reveal as="li" delay={480}>步行 500 公尺抵達 烏鬼洞</Reveal>
+              <Reveal as="li" delay={720}>步行 600 公尺抵達 神秘沙灘</Reveal>
+              <Reveal as="li" delay={960}>屋頂可遠眺海景、夕陽與星空</Reveal>
             </ul>
             <div className="ctas">
               <Link className="btn primary" href="/#cta">
