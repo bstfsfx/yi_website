@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Carousel from '@/components/Carousel';
 import Reveal from '@/components/Reveal';
+import FloatingWidgets from '@/components/FloatingWidgets';
 
 export default function HomePage() {
   return (
@@ -223,6 +224,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <FloatingWidgets />
     </main>
   );
 }
