@@ -112,13 +112,27 @@ export default function HomePage() {
           <h2 className="section-title">房間實況及附近風景</h2>
           <p className="section-lead">從房間到公共空間的真實照片，讓你在訂房前更能想像這趟旅程。</p>
           <div className="photo-grid">
-            <img className="wide" src="/media/8272af6c-c04e-44e0-ad7c-49127f141208.jpeg" alt="天台邑旅店實景" />
-            <img src="/media/6bac4e8c-891d-4756-b3d0-65865bbccfda.jpeg" alt="天台邑旅店實景" />
-            <img src="/media/15c285cf-ae5d-45c2-8633-c590ec45bf95.jpeg" alt="天台邑旅店實景" />
-            <img src="/media/c37edb47-8823-4a49-a6d9-e6f709366fd2.jpeg" alt="天台邑旅店實景" />
-            <img src="/media/p2.jpeg" alt="天台邑旅店實景" />
-            <img className="wide" src="/media/f6f4f89d-b8a3-4e68-a4c2-87920ee3faa7.jpeg" alt="天台邑旅店實景" />
-            <img src="/media/a45d258f-027f-41dc-b654-ff55117a0d44.jpeg" alt="天台邑旅店實景" />
+            <div className="cell wide">
+              <img src="/media/8272af6c-c04e-44e0-ad7c-49127f141208.jpeg" alt="天台邑旅店實景" />
+            </div>
+            <div className="cell">
+              <img src="/media/6bac4e8c-891d-4756-b3d0-65865bbccfda.jpeg" alt="天台邑旅店實景" />
+            </div>
+            <div className="cell">
+              <img src="/media/15c285cf-ae5d-45c2-8633-c590ec45bf95.jpeg" alt="天台邑旅店實景" />
+            </div>
+            <div className="cell">
+              <img src="/media/c37edb47-8823-4a49-a6d9-e6f709366fd2.jpeg" alt="天台邑旅店實景" />
+            </div>
+            <div className="cell">
+              <img src="/media/p2.jpeg" alt="天台邑旅店實景" />
+            </div>
+            <div className="cell wide">
+              <img src="/media/f6f4f89d-b8a3-4e68-a4c2-87920ee3faa7.jpeg" alt="天台邑旅店實景" />
+            </div>
+            <div className="cell">
+              <img src="/media/a45d258f-027f-41dc-b654-ff55117a0d44.jpeg" alt="天台邑旅店實景" />
+            </div>
           </div>
         </div>
       </section>
