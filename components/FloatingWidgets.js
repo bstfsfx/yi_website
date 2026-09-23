@@ -18,6 +18,14 @@ export default function FloatingWidgets() {
 
   return (
     <div className={`floating-widgets ${shown ? 'shown' : ''}`}>
+      <a
+        className="slide-buttons btn primary"
+        href="https://line.me/ti/p/8NIfEmPHlH"
+        target="_blank"
+        rel="noopener"
+      >
+        LINE
+      </a>
       <a className="slide-buttons btn primary" href="tel:0938591059">
         電話
       </a>

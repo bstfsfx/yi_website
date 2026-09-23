@@ -74,7 +74,7 @@ export default function HomePage() {
               <p className="group-calc">基本 8 + 4 = <b>12 人</b></p>
               <small>兩間 2 人房各可再加 1 名 120 公分以下兒童，最多 <b>14 人</b></small>
             </Reveal>
-            <Reveal as="article" className="card group-card" delay={240}>
+            <Reveal as="article" className="card group-card" delay={480}>
               <h3>組合 B</h3>
               <p className="group-rooms">4人房 × 2間　＋　2人房 × 3間</p>
               <p className="group-calc">基本 8 + 6 = <b>14 人</b></p>
