@@ -183,10 +183,8 @@ export default function HomePage() {
                 </a>
               </div>
               <div>
-                <a href="https://u.wechat.com/kJRnfbKXpNVW_gvmaOhaF7o?s=3" target="_blank" rel="noopener">
-                  <img src="/media/wechat_qr.png" alt="WeChat QR Code" />
-                  <small>微信</small>
-                </a>
+                <img src="/media/wechat_qr.png" alt="WeChat QR Code" />
+                <small>微信</small>
               </div>
               <div>
                 <a href="https://wa.me/qr/GE36BFLXMFQOM1" target="_blank" rel="noopener">
